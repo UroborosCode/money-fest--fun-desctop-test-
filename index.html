@@ -16,7 +16,17 @@
                     <img src="images/logo.png" alt="logo" class="header__logo-img">
                 </div>
                 <div class="header__inner">
-                    <nav class="header__nav">
+                    <button class="header__btn-media">
+                        <svg width="28" height="20" viewBox="0 0 28 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M27.3332 3.33333V0.666664H0.666504V3.33333H27.3332ZM27.3332 8.66666V11.3333H0.666504V8.66666H27.3332ZM27.3332 16.6667V19.3333H0.666504V16.6667H27.3332Z" fill="black"/>
+                        </svg>
+                    </button>
+                    <nav class="header__nav header__nav--active">
+                        <button class="header__close-btn">
+                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M6.00008 7.41421L1.70718 11.7071L0.292969 10.2929L4.58586 6L0.292969 1.70711L1.70718 0.292893L6.00008 4.58579L10.293 0.292893L11.7072 1.70711L7.41429 6L11.7072 10.2929L10.293 11.7071L6.00008 7.41421Z" fill="black"/>
+                            </svg>
+                        </button>
                         <ul class="header__list">
                             <li class="header__list-item">
                                 <a href="#" class="header__link">Главная</a>
@@ -260,34 +270,41 @@
                     <h3 class="experts__head main-headPage">Эксперты школы</h3>
                     <div class="experts__list">
                         <div class="experts__list-item">
-                            <img src="images/expertsFace.png" alt="images" class="experts__images">
-                            <h4 class="experts__inner-head">Максим 
-                                Денисламов</h4>
-                            <p class="experts__text">Гуру технического анализа,
-                                автор книг по ивестициям, капитал под консультационным управлением — $ 8 млн.</p>
+                            <div class="experts__list-item-i">
+                                <img src="images/expertsFace.png" alt="images" class="experts__images">
+                                <h4 class="experts__inner-head">Максим 
+                                    Денисламов</h4>
+                                    <p class="experts__text">Гуру технического анализа,
+                                        автор книг по вождению лежа, капитан под интуитивным управлением.</p>
+                            </div>
                         </div>
                         <div class="experts__list-item">
-                            <img src="images/expertsFace2.png" alt="images" class="experts__images">
-                            <h4 class="experts__inner-head">Дмитрий
-                                Тюрин</h4>
-                            <p class="experts__text">Инвестор на криптовалютном рынке с положительной дохо-дностью 90 месяцев подряд.</p>
+                            <div class="experts__list-item-i">
+                                <img src="images/expertsFace2.png" alt="images" class="experts__images">
+                                <h4 class="experts__inner-head">Дмитрий
+                                    Тюрин</h4>
+                                <p class="experts__text">Инвестор на цвет-мет. рынке с положительной дохо-дностью 90 месяцев подряд.</p>
+                            </div>
                         </div>
                         <div class="experts__list-item">
-                            <img src="images/expertsFace3.png" alt="images" class="experts__images">
-                            <h4 class="experts__inner-head">Мария
-                                Лощилова</h4>
-                            <p class="experts__text">Специалист по криптоинвести-циям, соавтор курсов Манифест.
-                                В 22 заработала свой первый миллион.</p>
+                            <div class="experts__list-item-i">
+                                <img src="images/expertsFace3.png" alt="images" class="experts__images">
+                                <h4 class="experts__inner-head">Мария
+                                    Лощилова</h4>
+                                <p class="experts__text">Специалист по чужим инвести-циям, соавтор песни Манифест.
+                                    В 22 заработала свой первый развод.</p>
+                            </div>
                         </div>
                         <div class="experts__list-item">
-                            <img src="images/expertsFace4.png" alt="images" class="experts__images">
-                            <h4 class="experts__inner-head">Анатолий 
-                                Дагиль</h4>
-                            <p class="experts__text">Специалист по криптоинвести-циям, автор курсов Манифест, лицензированный брокер.</p>
+                            <div class="experts__list-item-i">
+                                <img src="images/expertsFace4.png" alt="images" class="experts__images">
+                                <h4 class="experts__inner-head">Анатолий 
+                                    Дагиль</h4>
+                                    <p class="experts__text">Специалист по чужим инвести-циям, соавтор песни Манифест.
+                                        В 22 заработал свою первую грыжу.</p>
+                            </div>
                         </div>
                     </div>
-                    <button class="experts__btn-prev experts__btn-prev--hide"></button>
-                    <button class="experts__btn-next"></button>
                 </div>
             </div>
         </section>
@@ -351,7 +368,7 @@
                                 </div>
                             </article>
                         </div>
-                        <div class="reviews__list-item">
+                        <div class="reviews__list-item  reviews__list-item-3">
                             <article class="reviews-a__wrapp">
                                 <div class="reviews-a__box-head">
                                     <img src="images/reviews-a2.png" alt="icon" class="reviews-a__icon">
@@ -433,7 +450,7 @@
                             <div class="publications__inner--box-content publications__inner--box-content--flex">
                                 <a href="#" class="publications__inner--head-link">В Кремле прокомменти-ровали возможность официального признания биткоина</a>
                                 <span class="publications__inner--span">«Однозначно, что Россия не готова к таким шагам. Пока нет ни малейшего повода для того...</span>
-                                <span class="publications__inner--date">Статья	· 5 марта в 13:30</span>
+                                <span class="publications__inner--date publications__inner--date-q">Статья	· 5 марта в 13:30</span>
                             </div>
                         </article>
                         <article class="publications__inner">
@@ -556,11 +573,11 @@
                     <h4 class="footer__head">ВСЕ КУРСЫ</h4>
                     <div class="footer__box-link">
                         <a href="#" class="footer__link">Криптоинвестиции: успешный старт</a>
-                        <a href="#" class="footer__link">Главная</a>
+                        <a href="#" class="footer__link footer__link-nav">Главная</a>
                         <a href="#" class="footer__link">Мастерская трейдинга: практика и заработок</a>
-                        <a href="#" class="footer__link">Курсы</a>
+                        <a href="#" class="footer__link footer__link-nav">Курсы</a>
                         <a href="#" class="footer__link">Индивидуальное сопровождение эксперта</a>
-                        <a href="#" class="footer__link">Эксперты</a>
+                        <a href="#" class="footer__link footer__link-nav">Эксперты</a>
                     </div>
                 </div>
             </div>
